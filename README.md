@@ -1,4 +1,1 @@
-ultisnippets
-============
-
-My snippets for Ultisnip in Vim
+See https://github.com/SirVer/ultisnips.
