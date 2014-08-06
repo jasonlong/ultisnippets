@@ -1,0 +1,43 @@
+snippet div
+<div${1: class="${2}"}>
+	${0:${VISUAL}}
+</div>
+endsnippet
+
+snippet span
+<span${1: class="${2}"}>${0:${VISUAL}}</span>
+endsnippet
+
+snippet ul
+<ul${1: class="${2}"}>
+	${0:${VISUAL}}
+</ul>
+endsnippet
+
+snippet ol
+<ol${1: class="${2}"}>
+	${0:${VISUAL}}
+</ol>
+endsnippet
+
+snippet li
+<li${1: class="${2}"}>${0:${VISUAL}}</li>
+endsnippet
+
+snippet img
+<img${1: class="${2}"} src="${3}" alt="${4}">
+endsnippet
+
+#
+# Forms
+#
+snippet input
+<input type="${1:type}" ${2:class="${3}"} name="${4}" ${5:value="${6}"}>
+endsnippet
+
+#
+# GitHub-specific
+#
+snippet octicon
+<span class="${1:mega-}octicon octicon-${2:name}"></span>
+endsnippet

@@ -1,0 +1,29 @@
+extends html, rails
+
+snippet et
+<% ${1} %>
+endsnippet
+
+snippet ee
+<%= ${1} %>${2}
+endsnippet
+
+snippet if
+<% if ${1:condition} %>
+endsnippet
+
+snippet else
+<% else %>
+endsnippet
+
+snippet elsif
+<% elsif ${1:condition} %>
+endsnippet
+
+snippet rp
+<%= render :partial => "${1:item}" %>
+endsnippet
+
+snippet rpl
+<%= render :partial => "${1:item}", :locals => { :${2:name} => "${3:value}"$4 } %>
+endsnippet
