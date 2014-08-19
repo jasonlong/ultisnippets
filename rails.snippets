@@ -2,13 +2,19 @@ snippet #
 #{$0}
 endsnippet
 
-snippet if "if <condition> ... end"
+snippet def
+def ${1:method_name}
+  ${2}
+end
+endsnippet
+
+snippet if
 if ${1:condition}
 	${2:# TODO}
 end
 endsnippet
 
-snippet ife "if <condition> ... else ... end"
+snippet ife
 if ${1:condition}
 	${2:# TODO}
 else
