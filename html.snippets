@@ -26,6 +26,32 @@ snippet section
 </section>
 endsnippet
 
+# Headers
+snippet h1
+<h1${1: class="${2}"}>${3}</h1>
+endsnippet
+
+snippet h2
+<h2${1: class="${2}"}>${3}</h2>
+endsnippet
+
+snippet h3
+<h3${1: class="${2}"}>${3}</h3>
+endsnippet
+
+snippet h4
+<h4${1: class="${2}"}>${3}</h4>
+endsnippet
+
+snippet h5
+<h5${1: class="${2}"}>${3}</h5>
+endsnippet
+
+snippet h6
+<h5${1: class="${2}"}>${3}</h6>
+endsnippet
+
+# Lists
 snippet ul
 <ul${1: class="${2}"}>
 	${0:${VISUAL}}
@@ -42,6 +68,7 @@ snippet li
 <li${1: class="${2}"}>${0:${VISUAL}}</li>
 endsnippet
 
+# Tables
 snippet table
 <table${1: class="${2}"}>
 	${0:${VISUAL}}
@@ -64,6 +91,10 @@ endsnippet
 
 snippet img
 <img${1: class="${2}"} src="${3}" alt="${4}">
+endsnippet
+
+snippet hr
+<hr>
 endsnippet
 
 #
