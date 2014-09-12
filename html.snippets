@@ -1,3 +1,26 @@
+snippet html
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+		<title>${1:Title}</title>
+	</head>
+	<body>
+		${2}
+	</body>
+</html>
+endsnippet
+
+snippet script
+<script src="${1}"></script>
+endsnippet
+
+snippet link
+<link rel="${1:stylesheetl}" href="${2}">
+endsnippet
+
 snippet div
 <div${1: class="${2}"}>
 	${0:${VISUAL}}
