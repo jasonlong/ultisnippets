@@ -1,33 +1,33 @@
 extends html, rails
 
-snippet et
+snippet et "ERB tag" i
 <% ${1} %>
 endsnippet
 
-snippet ee
+snippet ee "ERB output" i
 <%= ${1} %>${2}
 endsnippet
 
-snippet if
+snippet if "ERB if" i
 <% if ${1:condition} %>
 endsnippet
 
-snippet else
+snippet else "ERB else" i
 <% else %>
 endsnippet
 
-snippet elsif
+snippet elsif "ERB elsif" i
 <% elsif ${1:condition} %>
 endsnippet
 
-snippet end
+snippet end "ERB end" i
 <% end %>
 endsnippet
 
-snippet rp
+snippet rp "Render partial" i
 <%= render :partial => "${1:item}" %>
 endsnippet
 
-snippet rpl
+snippet rpl "Render partial w/ locals" i
 <%= render :partial => "${1:item}", :locals => { :${2:name} => "${3:value}"$4 } %>
 endsnippet
