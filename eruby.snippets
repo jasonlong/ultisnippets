@@ -1,11 +1,15 @@
 extends html, rails
 
-snippet et "ERB tag" i
-<% ${1} %>
+snippet % "ERB tag" i
+<% ${0} %>
 endsnippet
 
-snippet ee "ERB output" i
-<%= ${1} %>${2}
+snippet = "ERB ouput" i
+<%= ${0} %>
+endsnippet
+
+snippet - "ERB output - no whitespace" i
+<%- ${0} %>
 endsnippet
 
 snippet if "ERB if" i
